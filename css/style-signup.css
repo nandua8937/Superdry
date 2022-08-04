@@ -1,0 +1,255 @@
+.material-icons{
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+}
+@font-face{
+  font-family:sans-serif;
+  src:url("asset/SansSerifBold.ttf");
+}
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:sans-serif;
+/*NAV-BAR STARTS*/
+}
+.nav-top{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-left:1.5%;
+  margin-right:1.5%;
+  border-bottom:1px solid #f0f0f0;
+}
+.nav-lt{
+  max-height:100px;
+  padding:12px;
+  padding-left: 0;
+}
+.nav-lt img{
+  cursor:pointer;
+  margin-left:0;
+} 
+.nav-mid input{
+  border:none;
+  outline: none;
+  width: 100%;
+  background: #f0f0f0;
+  padding-left: 18px;
+  font-size: 21px;
+  color:#707070;
+  margin-left: 10px;
+}
+.nav-mid{
+  padding: 5px;
+  flex: 0.8;
+  display: flex;
+  justify-content: space-between;
+  background: #f0f0f0;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  margin-right: 77px;
+  margin-left: 57px;
+  margin-top:2px;
+}
+.nav-rt{
+  display:flex;
+  justify-content: space-between;
+  padding-top:10px;
+  padding-right:10px;
+}
+#srh{
+  margin-right: 20px;
+}
+.nav-rt span{
+  margin-right:8px;
+  cursor:pointer;
+}
+.nav-bttm-cat{
+  display:flex;
+  align-items:center;
+  margin-left:38.5%; 
+}
+.nav-bttm{
+  border-bottom:1px solid #f0f0f0;
+}
+.nav-bttm-cat span{
+  padding:20px;
+  margin-left:4px;
+  cursor:pointer;
+  margin-top:8px;
+}
+h3{
+  font-family:sans-serif;
+  font-size:18px;
+  color:#223737;
+}
+/*NAV-BAR ENDS*/
+/*CONTENT STARTS*/
+.sup{
+  display:flex;
+  justify-content:space-between;
+}
+.si{
+  margin-left:6%;
+  margin-top:7%;
+}
+.si h1{
+  font-size: 22px;
+   
+}
+.si input{
+  padding:20px 205px 20px 20px;
+  font-size:22px;
+  border-radius:5%;
+  border:0.5px solid #e0e0e0;
+  color:#707070;
+  outline:none;
+  
+}
+.si .sibtn{
+  padding:20px 207px 20px 207px;
+  font-size:24px;
+  font-weight:600;
+  color:#ff5e00;
+  background:#ffffff;
+  border:0.5px solid #ff5e00;
+  border-radius:5%;
+  cursor:pointer;
+}
+.si .sibtn:hover{
+  color:#ffffff;
+  background:#ff5e00;
+}
+.si .sp{
+  margin-top:15px;
+}
+.si a{
+  font-size:22px;
+  color:#707070;
+}
+.si .fp{
+  margin-top:20px;
+}
+.nc h3{
+  margin-top: 35px;
+  font-size: 22px;
+  color: black;
+  margin-left: 92px;
+  margin-right: 55px;
+}
+.nc h3 a{
+  text-decoration:none;
+  color:#ff5e00;
+}
+.ncc h2{
+  margin-top: 84px;
+}
+.ncc p{
+  margin-top: 44px;
+  font-size: 21px;
+}
+.ncc .rgbtn{
+  padding:20px 228px 20px 228px;
+  font-size:22px;
+  font-weight:600;
+  color:#ffffff;
+  background:#ff5e00;
+  border:none;
+  border-radius:5%;
+  margin-top:10px;
+  cursor:pointer;
+}
+.ncc .rgbtn:hover{
+  color:#ffffff;
+  background:#e84100;
+}
+/*CONTENT ENDS*/
+/*PAYMENT*/
+#po{
+  margin-top:25px;
+}
+
+/*PAYMENT ENDS*/
+/*STAY STARTS*/
+.sc{
+  position:absolute;
+  background:#f2f2f2;
+  width:100%;
+  margin-top:13%;
+  display:flex;
+  justify-content:space-between;
+}
+.sc2 input{
+  padding:20px 205px 20px 20px;
+  font-size:20px;
+  margin-left:1px;
+  border:none; 
+  border:1px solid #f2f2f2;
+  outline:none;
+}
+
+.sc1{
+  padding:5% 0 5% 0;
+}
+.sc1 h1{
+  font-size:45px;
+  margin-top:15px;
+}
+.sc1 p{
+  font-size:20px;
+  margin-top:15px;
+}
+.sc2{
+  padding:6% 0 5% 0;
+}
+.sc2 p{
+  font-size:20px;
+  margin-top:5px;
+}
+.sc2 a{
+  font-size:20px;
+  color:black;
+  margin-top:10px;
+}
+.sc2 .material-icons{
+  border:1px solid #ff5e00;
+  color:#ff5e00;
+  background:#ffffff;
+  font-size:35px;
+  padding:14px 20px 14px 20px;
+  position:absolute;
+  cursor:pointer;
+  border-top-right-radius:10%;
+  border-bottom-right-radius:10%;
+}
+/*STAY ENDS*/
+/*FOOTER*/
+#foot{
+  position:absolute;
+  margin-top:64%;
+  padding-top: 14%;
+}
+.f1{
+  max-height: 100%;
+  position: absolute;
+  background: white;
+  z-index: -1;
+}
+#foot1{
+  position: relative;
+  margin-top: 37.5%;
+  z-index: 0;
+}
+/*ENDS*/
