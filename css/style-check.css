@@ -100,19 +100,19 @@ h3{
 }
 /*NAV-BAR ENDS*/
 /*CONTENT STARTS*/
-.ncc .rgbtn{
-  padding: 20px 109px 20px 109px;
+.bn .rgbtn{
+  padding: 20px 200px 20px 205px;
   font-size:25px;
   font-weight:600;
   color:#ffffff;
   background:#ff5e00;
   border:none;
-  border-radius:5%;
+  border-radius:10px;
   margin-top:30px;
   cursor:pointer;
   margin-left: 202px;
 }
-.ncc .rgbtn:hover{
+.bn .rgbtn:hover{
   color:#ffffff;
   background:#e84100;
 }
@@ -317,6 +317,11 @@ h3{
   cursor:pointer;
   margin-top:50px;
 }
+.prop{
+  display:flex;
+  align-items:center;
+  padding:25px 20px 25px 20px;
+}
 .pro h3{
   margin-left:200px;
   font-size:20px;
@@ -326,12 +331,121 @@ h3{
   margin-left:240px;
   padding-left:240px;
 }
+.ccno{
+  display:flex;
+  align-items:center;
+  border:0.5px solid #b9c4c9;
+  width:100%;
+  background:#ffffff;
+  margin-bottom: 15px;
+}
+.cvv{
+  display:flex;
+  align-items:center;
+  margin-left:15px;
+}
+.ccdac{
+  display:flex;
+  align-items:center;
+  width:100%;
+  margin-bottom: 15px;
+}
+.ccn,.mon,.cvv{
+  border:0.5px solid #b9c4c9;
+  width:100%;
+  background:#ffffff;
+
+}
+.dc input{
+  border:none;
+  font-size:19px;
+  color:#c9d1d5;
+  padding:30px 30px 30px 30px;
+  width:100%;
+  outline:none;
+}
+.dc{
+  background:#fafafa;
+  padding:30px 20px 20px 20px;
+  width:45%;
+  border:0.5px solid #e6e9eb;
+  border-radius:10px;
+}
+.dc h3{
+  padding-bottom:20px;
+  cursor:pointer;
+}
+.cc{
+  padding:60px 50px 80px 0;
+}
+#ccon{
+  margin-left:117px;
+}
+#ccoff{
+  margin-right:10px;
+}
+.sub,.shfe,.to{
+  display:flex;
+  align-items:center;
+}
+.ps{
+  border:0.5px solid #e6e9eb;
+  border-radius:10px;
+  width:43.1%;  
+  padding:30px 20px 20px 20px;
+  
+}
+.psh h3{
+  z-index:1;
+  position:absolute;
+  margin-left:142px;
+  background:#ffffff;
+  font-size:24px;
+  color:#3c3c3c;
+  margin-top: 62px;
+}
+.ps h3{
+  margin-top:30px;
+  font-size:20px;
+  font-weight:500;
+}
+.ps h2{
+  color:#3c3c3c;
+  margin-top:20px;
+}
+.p h3{
+  margin-left:305px;
+}
+.p1 h3{
+  margin-left:260px;
+}
+.p2 h2{
+  margin-left:298px;
+}
+.check-bottom{
+  display:flex;
+  align-items:center;
+}
+.bn p{
+  margin-left: 235px;
+  margin-top: 50px;
+  color:#3c3c3c;
+  font-weight:600;
+}
+.bn p a{
+  color:#3c3c3c;
+  text-decoration:none;
+}
+#hp{
+  margin-left: 198px;
+  margin-top: 30px;
+  cursor:pointer;
+}
 /*CONTENT ENDS*/
 /*PAYMENT*/
 #po{
   margin-top:25px;
 }
-
 /*PAYMENT ENDS*/
 /*FOOTER*/
 #foot{
