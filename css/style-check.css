@@ -145,9 +145,10 @@ h3{
 }
 .sum h4{
   font-size:20px;
+  white-space: nowrap;
 }
 .price h4{
-  margin-left:413px;
+  margin-left:365px;
   padding-left:410px;
 }
 #da{

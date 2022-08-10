@@ -125,7 +125,7 @@ h3{
   color:#ff5e00;
   background:#ffffff;
   border:0.5px solid #ff5e00;
-  border-radius:5%;
+  border-radius:10px;
   cursor:pointer;
 }
 .si .sibtn:hover{
@@ -168,7 +168,7 @@ h3{
   color:#ffffff;
   background:#ff5e00;
   border:none;
-  border-radius:5%;
+  border-radius:10px;
   margin-top:10px;
   cursor:pointer;
 }

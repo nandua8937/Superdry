@@ -252,7 +252,7 @@ h3{
   color:#ffffff;
   background:#262626;
   border:none;
-  border-radius:5%;
+  border-radius:10px;
   margin-top:10px;
   cursor:pointer;
   transition:background 0.5s;
