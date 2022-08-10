@@ -20,8 +20,9 @@
   padding:0;
   box-sizing:border-box;
   font-family:sans-serif;
+  }
 /*NAV-BAR STARTS*/
-}
+
 .nav-top{
   display:flex;
   align-items:center;
@@ -444,3 +445,7 @@ h3{
   z-index: 0;
 }
 /*ENDS*/
+/*max-width:1024px-Laptop*/
+@media(max-width:1024px){
+
+}
