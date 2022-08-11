@@ -76,6 +76,9 @@
   margin-left: 57px;
   margin-top:2px;
 }
+.nav-mid .material-icons{
+  cursor:pointer;
+}
 .nav-rt{
   display:flex;
   justify-content: space-between;
@@ -122,6 +125,9 @@ h3{
   margin-top:10px;
   cursor:pointer;
   transition:background 0.5s;
+}
+.mv{
+  display:none;
 }
 .ncc .rgbtn .material-icons{
   font-size: 26px;
@@ -446,6 +452,13 @@ h3{
   margin-top:62%;
   padding-top: 14%;
 }
+#mvfoot{
+  display:none;  
+}
+#mvfoot1{
+  display:none;  
+  cursor:pointer;
+}
 .f1{
   max-height: 100%;
   position: absolute;
@@ -489,7 +502,7 @@ h3{
   margin-left:0;
   }
   .nav-lt img {
-  width:80%;
+  width:200px;
   }
   .nav-rt img{
   width:80%;
@@ -614,9 +627,10 @@ h3{
   }
   .pro-left{
   width:50%;
+  margin-left: 18px;
   }
   .pro-right{
-  width:50%;
+  width:41%;
   }
   #proimg{
   width:100%;
@@ -666,7 +680,7 @@ h3{
     font-size: 20px;
   }
   .sc2 input {
-  padding: 20px 102px 20px 20px;
+  padding: 20px 99px 20px 2px;
   font-size: 15px;
   }
   .pro-left h3 {
@@ -694,6 +708,7 @@ h3{
   }
   .list-top h5 {
   font-size: 11px;
+  margin-left: 38px;
   }
   .pro-right h5 {
   font-size: 11px;
@@ -726,8 +741,8 @@ h3{
   margin-top: 10px;
   }
   .nav-mid span{
-  margin-left:178px;
-  padding-left:147px;
+  margin-left:200px;
+  padding-left:217px;
   margin-top: 10px;
   display:block;
   }
@@ -745,5 +760,116 @@ h3{
   }
   .nav-rt img {
   width:24px;
+  }
+   #foot1{
+  width:100%;
+  }
+  #foot{
+  width:100%;
+  }
+  .nav-top{
+  width: 95%;
+  margin-left: 28px;
+  }
+  .sc{
+  margin-left: 3px;
+  }
+}
+/*max-width:320px-Mobile*/
+@media(max-width:320px){
+  .sc{
+  display:block;
+  width: 100%;
+  margin-left: 21px;
+  }
+  .pro{
+  display:block;
+  }
+  .pro-left .row{
+  display:none;
+  }
+  .nav-lt img {
+  margin-left: 15px;
+  }
+  .nav-mid span {
+  margin-left: 0px;
+  padding-left: 0px;
+  margin-top: 4px;
+  }
+  .sc2 input {
+  padding: 10px 0px 10px 10px;
+  font-size: 15px;
+  }
+  .sc2 .material-icons{
+  padding: 2px 6px 5px 6px;
+  font-size: 31px;
+  }
+  #proimg {
+  width: 88%;
+  }
+  .pro-left h3 {
+  display:none;
+  }
+  .list-top h5{
+  display:none;
+  }
+  .mv{
+  display:flex;
+  align-items:center;
+  }
+  .list{
+  width:100%;
+  }
+  .pro-left{
+  width:100%;
+  }
+  .pro-right{
+  width:100%;
+  }
+  .pro-right .usd h1 {
+  font-size: 15px;
+  width: 79%;
+  }
+  .mv .material-icons{
+  margin-left:12px;
+  }
+  .desc h1 {
+  display:none;
+  }
+  .desc p {
+  display:none;
+  }
+  #hf{
+  display:none;
+  }
+  #foot{
+  display:none;
+  }
+  #foot1{
+  display:none;
+  }
+  .ncc .rgbtn {
+  padding: 15px 50px 15px 50px
+  }
+  .ncc .wish{
+  padding: 10px 10px 10px 8px;
+  width: 50px;
+  }
+  .wish .material-icons {
+  font-size: 24px;
+  margin-top: 3px;
+  margin-left: 3px;
+  }
+  #mvfoot{
+  display:block; 
+  margin-top: 340px;
+  padding-top: 340px;
+  width:112%; 
+  }
+  #mvfoot1{
+  display:block;  
+  margin-top: 194px;
+  padding-top: 164px;
+  margin-left: 25px;
   }
 }
