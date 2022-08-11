@@ -779,8 +779,7 @@ h3{
 @media(max-width:320px){
   .sc{
   display:block;
-  width: 100%;
-  margin-left: 21px;
+  width: 110.5%;
   }
   .pro{
   display:block;
@@ -831,7 +830,8 @@ h3{
   width: 79%;
   }
   .mv .material-icons{
-  margin-left:12px;
+  margin-left:35px;
+  cursor:pointer;
   }
   .desc h1 {
   display:none;
