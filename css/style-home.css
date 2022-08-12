@@ -87,6 +87,9 @@
   cursor:pointer;
   margin-top:8px;
 }
+.nav-bttm-cat a{
+  text-decoration:none;
+}
 h3{
   font-family:sans-serif;
   font-size:18px;
