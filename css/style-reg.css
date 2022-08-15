@@ -288,3 +288,89 @@ input[type=checkbox] {
   z-index: 0;
 }
 /*ENDS*/
+/*max-width:1024px-Laptop*/
+@media(max-width:1024px){
+   .nav-mid input {
+   font-size:17px;
+   }
+   .nav-bttm-cat h3{
+   font-size: 17px;
+   }
+   .nav-lt img {
+   width:210px;
+   }
+   #srh {
+   width:24px;
+   }
+   .nav-rt img{ 
+   width:24px;
+   }
+   #foot{
+   padding-top:18%;
+   }
+   .refull .up input {
+   width:81%;
+   font-size:12px;
+   } 
+   .re{
+   width:50%;
+   }
+   .dwh{
+   width:50%;
+   }
+   .re .sp h3 {
+   font-size:15px;
+   margin-left: 10px;
+   }
+   .refull .up h3 {
+   font-size:15px;
+   margin-top: 13px;
+   }
+   #con {
+   font-size:12px;
+   padding: 20px 70px 20px 70px;
+   width: 81%;
+   margin-right: 20px;
+   }
+   #gen {
+   font-size:12px;
+   padding: 20px 70px 20px 70px;
+   width: 89%;
+   margin-right: 38px;
+   }
+   .reg input {
+   font-size:12px;
+   margin-left:0;
+   margin-right: 33px;
+   }
+   .forp p {
+   font-size:12px;
+   margin-left:0;
+   }
+   .lim li {
+   margin-left: 5%;
+   }
+   .dwh h5 {
+   margin-left: 311px;
+   font-size: 17px;
+   margin-top: 14px;
+   }
+   .dwh h3 {
+   margin-left: 36px;
+   font-size: 17px;
+   margin-top: 12px;
+   }
+   .dwh-bottm p {
+   font-size: 16px;
+   margin-left: 0px;
+   margin-top: 5px;
+   }
+   #tac{
+   width: 30px;
+   height: 30px;
+   margin-top: 6px;
+   }
+   .re h1 {
+   font-size: 35px;
+   }
+}
